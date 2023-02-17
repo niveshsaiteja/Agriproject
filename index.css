@@ -78,7 +78,7 @@
     padding-top: 80px;
 }
 .methods-img{
-    width: 300px;
+    width: 445px;
     height: 100%;
 }
 .methods-heading{
@@ -103,4 +103,114 @@
     box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
     border-color: rgb(14, 225, 14);
     border-radius: 5px;
+}
+
+.product-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(14, 225, 14) ;
+    padding: 10px;
+}
+.product-para{
+    font-size: 17px;
+    color: #333333;
+    padding: 10px;
+}
+.product-btn{
+    border-style: solid;
+    border-width: 0px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    background-color: rgb(14, 225, 14);
+    color: black;
+}
+.product-img{
+    width: 445px;
+    height: 100%;
+}
+.product-content{
+    margin: 20px;
+}
+.product-card{
+    display: flex;
+    flex-direction: row;
+   margin: 30px;
+}
+.product-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.input-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-input1{
+    border-style: solid;
+    border-width: 0px;
+    height: 60px;
+    margin: 16px;
+    background-color: rgb(177, 255, 255);
+    border-radius: 12px;
+
+
+}
+.contact-input{
+    border-style: solid;
+    border-width: 0px;
+    height: 100px;
+    margin: 16px;
+    background-color: rgb(177, 255, 255);
+    border-radius: 12px;
+}
+.contact-btn{
+    border-style: solid;
+    border-width: 0px;
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.icons-img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.contact-heading{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+
+}
+.contact-img{
+    width: 600px;
+    height: 90%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.contact-card{
+    display: flex;
+    flex-direction: row;
+    margin: 185px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+.bg-contact-container{
+    background-image: url("https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=1480&t=st=1676640168~exp=1676640768~hmac=66a5c8168184fcab980fa015f81170f2c2f0f4b878e3c22cb257ad993b4e7c57");
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    
+}
+.contact-content{
+    padding: 30px;
 }
