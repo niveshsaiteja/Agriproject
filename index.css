@@ -1,6 +1,9 @@
 *{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .navbar-logo{
     width: 150px;
@@ -85,6 +88,7 @@
     font-weight: bold;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding-top: 80px;
+
 }
 .methods-img{
     width: 445px;
@@ -239,4 +243,111 @@
 }
 .contact-content{
     padding: 30px;
+}
+
+@media screen and (max-width:700px){
+    .second-section{
+        flex-direction: column;
+    }
+    .methods-container{
+        flex-direction: column;
+    }
+    .product-container{
+        flex-direction: column;
+    }
+    .contact-card{
+        flex-direction: column;
+    }
+    .product-card{
+        flex-direction: column-reverse;
+    }
+    .first-background-heading {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 37px;
+        color: white;
+        padding: 105px;
+        padding-bottom: 100px;
+    }
+    .second-section {
+       
+        margin: 14px;
+        margin-top: 40px;
+        
+        
+    }
+    .second-section-label{
+       font-size: 25px;
+        padding-top: 40px;
+        
+    }
+    
+.second-section-label {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 30px;
+}
+.second-section-img {
+    width: 90vw;
+    height: 175px;
+}
+.section-para {
+    padding: 10px;
+}
+.third-background-heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 27px;
+    color: white;
+    padding: 41px;
+    padding-bottom: 100px;
+    padding-top: 38px;
+}
+.methods-img {
+    width: 100%;
+    height: 152px;
+}
+.methods-container {
+    
+    margin: 22px;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+}
+.product-card {
+    margin: 30px;
+}
+.bg-contact-container {
+    width: 100vw;
+    height: 110vh;
+}
+.contact-img {
+    width: 266px;
+    height: 90%;
+  
+}
+.contact-input1 {
+    width: 100%;
+}
+.contact-input {
+    width: 100%;
+}
+.icons-img {
+    width: 49px;
+    height: 40px;
+    margin: 20px;
+}
+.contact-card {
+    margin: 9px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 0px;
+}
+.contact-content {
+    padding: 7px;
+}
 }
