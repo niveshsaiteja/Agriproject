@@ -1,3 +1,7 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .navbar-logo{
     width: 150px;
     height: 90px;
@@ -11,5 +15,92 @@
 .nav-list-item:hover{
    background-color: rgb(81, 252, 101);
    color: white;
-   transition: .5s;
+   transition: 1s;
+}
+
+.first-background-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+    padding: 250px;
+    padding-bottom: 100px;
+
+}
+.third-background-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 70px;
+    color: white;
+    padding: 250px;
+    padding-bottom: 100px;
+    padding-top: 150px;
+
+}
+.first-background{
+    background-image: url("images/first-background1.jpg");
+    background-size: cover;
+    background-blend-mode: darken #333333;
+    width: 100vw;
+    height: 90%;
+}
+.third-background{
+    background-image: url("images/second-background2.jpg");
+    background-size: cover;
+    background-blend-mode: darken #333333;
+    width: 100vw;
+    height: 70%;
+}
+.second-section-img{
+    width: 100%;
+    height: 100%;
+}
+.second-section{
+    display: flex;
+    margin: 80px;
+    margin-top: 40px;
+    
+}
+.second-section-content-heading{
+    font-size: 25px;
+    padding: 10px;
+}
+.second-section-para{
+    padding: 10px;
+}
+.second-section-content{
+    padding: 10px;
+}
+.second-section-label{
+    text-align: center;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 80px;
+}
+.methods-img{
+    width: 300px;
+    height: 100%;
+}
+.methods-heading{
+    font-size: 25px;
+    padding: 10px;
+}
+.methods-para{
+    padding: 10px;
+}
+.methods-card{
+    margin: 20px;
+    border-style: solid;
+    border-width: 0px;
+    border-bottom-width: 5px;
+    border-color: white;
+}
+.methods-container{
+    display: flex;
+    margin: 50px;
+}
+.methods-card:hover{
+    box-shadow: 0 4rem 8rem rgba(0,0,0,0.5);
+    border-color: rgb(14, 225, 14);
+    border-radius: 5px;
 }
