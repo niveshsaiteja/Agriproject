@@ -350,4 +350,8 @@ html{
 .contact-content {
     padding: 7px;
 }
+.navbar-logo {
+    width: 88px;
+    height: 70px;
+}
 }
